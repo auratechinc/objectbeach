@@ -97,7 +97,7 @@ export default class Landing extends React.Component {
             //<span id='header'><img src={spinner} alt="loading ..." /></span> 
             //<>
             //</>
-           }
+           //}
             <App
               handleGuess={this.handleGuess} 
               handleCountFrames={this.handleCountFrames}
