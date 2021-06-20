@@ -96,7 +96,8 @@ export default class Landing extends React.Component {
             //{this.state.loading === true ? 
             //<span id='header'><img src={spinner} alt="loading ..." /></span> 
             //<>
-            </>}
+            //</>
+           }
             <App
               handleGuess={this.handleGuess} 
               handleCountFrames={this.handleCountFrames}
