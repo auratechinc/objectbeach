@@ -91,11 +91,12 @@ export default class Landing extends React.Component {
         // App Page
         <div>
           <h3 id='header'>ObjectBeach</h3>
-          <hr id='first-hr'></hr>
+          <hr id='first-hr'></hr> :
           //<>
             //{this.state.loading === true ? 
-            //<span id='header'><img src={spinner} alt="loading ..." /></span> : 
-            <></>}
+            //<span id='header'><img src={spinner} alt="loading ..." /></span> 
+            //<>
+            </>}
             <App
               handleGuess={this.handleGuess} 
               handleCountFrames={this.handleCountFrames}
