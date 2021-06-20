@@ -92,11 +92,11 @@ export default class Landing extends React.Component {
         <div>
           <h3 id='header'>Guardian</h3>
           <hr id='first-hr'></hr>
-          <>
-            /*{this.state.loading === true ? 
+          /*<>
+            {this.state.loading === true ? 
             <span id='header'><img src={spinner} alt="loading ..." /></span> : 
             <></>}
-            <App */
+            <App*/
               handleGuess={this.handleGuess} 
               handleCountFrames={this.handleCountFrames}
               framesProcessed={this.state.framesProcessed}
