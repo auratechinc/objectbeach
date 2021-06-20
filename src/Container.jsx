@@ -25,7 +25,7 @@ export default class Landing extends React.Component {
 
   handleClick() {
     this.setState({begin: true})
-    console.log('https://www.linkedin.com/in/cneblett/')
+    console.log(' ')
     setTimeout(() => {
       this.setState({loading: false})
     }, 5000);
@@ -74,35 +74,29 @@ export default class Landing extends React.Component {
             <h1 id='header-title'>Object Detector</h1>
           <hr id='first-hr'></hr>
           <br></br>
-            <a id='header' href='https://www.github.com/cnebs'>Project GitHub</a>
+            <a id='header' >ObjectBeach</a>
           <br></br>
-            <span id='header'>Still image detection powered by:</span>
+            <span id='header'>Object Detection By Aura Technologies.</span>
           <br></br>
-            <div id='support-links'>
-              <a id='header-links-1' href='https://www.npmjs.com/package/@tensorflow/tfjs'>Tensorflow.js</a>
-              <span id='header'>|</span>
-              <a id='header-links-2' href='https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd'>Detection Model</a>
-            </div>
           <div id='wrapper'>
             <button onClick={this.handleClick} type="button">Launch</button>
           </div>
             {/* <hr id='second-hr'></hr> */}
           {/* <br/>
           <br/> */}
-            <span id='footer'>Want to train your own image classifier?</span>
+            <span id='footer'>Copyright Aura Technologies</span>
           <br></br>
-            <a id='footer' href='https://codelabs.developers.google.com/codelabs/tensorflowjs-teachablemachine-codelab/index.html#6'>Tensorflow tutorial</a>
         </div> :
 
         // App Page
         <div>
-          <h3 id='header'>Object Detector</h3>
+          <h3 id='header'>Guardian</h3>
           <hr id='first-hr'></hr>
           <>
-            {this.state.loading === true ? 
+            /*{this.state.loading === true ? 
             <span id='header'><img src={spinner} alt="loading ..." /></span> : 
             <></>}
-            <App 
+            <App */
               handleGuess={this.handleGuess} 
               handleCountFrames={this.handleCountFrames}
               framesProcessed={this.state.framesProcessed}
