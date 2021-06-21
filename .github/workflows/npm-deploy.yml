@@ -32,6 +32,8 @@ jobs:
         with:
           node-version: 12
       - run: npm install
+      - run: git config --global user.email "pixchurelive@gmail.com"
+      - run: git config --global user.name "auratechinc"
       - run: npm run deploy
         env:
           github_token: ${{ secrets.GITHUB_TOKEN }}
