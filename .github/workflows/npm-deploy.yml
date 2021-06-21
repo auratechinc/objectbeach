@@ -18,6 +18,7 @@ jobs:
         with:
           node-version: 12
       - run: npm install
+      - run: npm run build
 
   deploy:
     needs: build
@@ -31,6 +32,6 @@ jobs:
         with:
           node-version: 12
       - run: npm install
-      - run: npm deploy
+      - run: npm run deploy
         env:
           github_token: ${{ secrets.GITHUB_TOKEN }}
