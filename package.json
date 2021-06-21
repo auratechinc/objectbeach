@@ -15,6 +15,10 @@
     "react-scripts": "3.0.1",
     "typescript": "^3.5.3"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+    "repository":"https://github.com/auratechinc/objectbeach",
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
