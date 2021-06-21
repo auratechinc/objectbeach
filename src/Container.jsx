@@ -71,11 +71,7 @@ export default class Landing extends React.Component {
       {this.state.begin === false ?
       // Landing Page
         <div>
-            <h1 id='header-title'>ObjectBeach</h1>
-          //<hr id='first-hr'></hr>
-          <br></br>
-            <a id='header' >ObjectBeach</a>
-          <br></br>
+            <h1>ObjectBeach</h1>
             <span id='header'>Object Detection By Aura Technologies.</span>
           <br></br>
           <div id='wrapper'>
