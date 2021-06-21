@@ -1,7 +1,7 @@
 import React from 'react';
 import App from './App.js';
 import './Container.css';
-import spinner from './assets/spinner-red.gif'
+//import spinner from './assets/spinner-red.gif'
 
 export default class Landing extends React.Component {
 
@@ -72,7 +72,7 @@ export default class Landing extends React.Component {
       // Landing Page
         <div>
             <h1 id='header-title'>ObjectBeach</h1>
-          <hr id='first-hr'></hr>
+          //<hr id='first-hr'></hr>
           <br></br>
             <a id='header' >ObjectBeach</a>
           <br></br>
