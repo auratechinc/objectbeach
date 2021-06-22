@@ -5,7 +5,7 @@
   "homepage": "https://www.github.com/auratechinc/objectbeach",
   "engines": {
     "node": "14.x"
-  }
+  },
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.0.0",
     "@tensorflow/tfjs": "^1.2.6",
